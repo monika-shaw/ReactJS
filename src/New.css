@@ -1,0 +1,24 @@
+h3{
+    background-color:black;
+    color: red;
+}
+
+
+.slick-prev{
+    z-index: 100;
+    left: 10px !important;
+    
+}
+.slick-prev::before{
+    color: green;
+}
+  .slick-next:before {
+        color: yellow;
+    }
+
+
+.slick-next{
+    z-index: 100;
+    right: 20px !important;
+
+}
